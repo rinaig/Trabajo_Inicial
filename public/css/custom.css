@@ -1,0 +1,222 @@
+.bodyImagen{
+    background-image: url("/img/good duck logo_BLANCO.png");
+    padding-left: 15rem;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    width: 100%;
+    height: 200px; 
+}
+
+
+.body-back{
+    background-image: url('/img/background.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+    border-radius: 0%;
+}
+
+.backSeccion1{
+    background-image: url('/img/back1.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover;
+    background-repeat:round;
+    border-radius: 0%;
+}
+
+.backSeccion2{
+    background-image: url('/img/back2.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+    border-radius: 0%;
+}
+
+.backSeccion3{
+    background-image: url('/img/back3.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+}
+
+.backSeccion4{
+    background-image: url('/img/back4.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+}
+
+.backSeccion5{
+    background-image: url('/img/back5.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+}
+
+.backSeccion6{
+    background-image: url('/img/back6.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+}
+
+.backSeccion7{
+    background-image: url('/img/back7.png');
+    background-color: rgba(15, 51, 117, 0.192);
+    background-size:cover   ;
+    background-repeat:round;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+            color: rgba(7, 55, 146, 0.986);
+            background-color: rgba(219, 232, 240, 0.247);
+}
+
+.img-logo1{
+    width: 5rem;
+}
+
+.tamañoImagen{
+    width: 50%;
+}
+
+.tamañoImagenCarousel{
+    width: 40%;
+}
+
+.tamañoImagenGrafico{
+    width: 80%;
+}
+
+.tamañoImagenDejCons{
+    width: 70%;
+}
+
+.tamañoImagenSisteInt{
+    width: 20%;
+}
+
+
+.carouselwith{
+    align-self: center;
+    width: 100%;
+}
+
+.img-80{
+    width: 100%;
+    align-self: center;
+}
+
+.imagenesBody{
+    display: flex;
+    width: 30%;
+}
+
+.botCaroudesap{
+    align-self: center;
+    display: flex;
+}
+
+.tarjeta{
+    background-color:transparent;
+}
+
+.consulta{
+    text-decoration: rgb(6, 7, 7);
+    color: rgb(5, 42, 255);
+    font-size: 1rem;
+    line-height: 20px; 
+    text-align: center;
+}
+
+.carouselNosotrosWith{
+    text-align: center;
+    width: 85%;
+ }
+
+.videos{
+    align-self: center; 
+     }
+
+.letraForm{
+    color: whitesmoke;
+}
+
+.formulario{
+    text-decoration: rgb(6, 7, 7);
+    color: rgb(11, 31, 124);
+    font-size: 1rem;
+    line-height: 20px; 
+    text-align: left;
+}
+
+.logoWhatsappLetra{
+    color: whitesmoke;
+}
+
+.logoWhatsapp{
+    width: 25%;
+    align-self: center;
+}
+
+
+.bloqueFooter{
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+}
+
+
+.tituloFooter{
+    text-align: center;
+    color: rgb(196, 198, 209)
+    }
+
+.menuFooter {
+    list-style: none;
+    text-decoration: rgb(55, 187, 187);
+    color: rgb(196, 198, 209);
+    font-size: 1rem;
+    line-height: 25px; 
+    text-align: center;
+    align-self: center;
+}
+
+.img-redes{
+    width: 10%;
+}
+
+.creditoFinal{
+    color: rgb(194, 194, 238);
+    background-color: rgb(30, 34, 73);
+    text-align: center;
+  }
+
+.img-logofooter{
+   
+    width: 5%;
+    align-self: center;
+}
+
+@media (min-width: 600px) { .videos{ 
+    align-self: center;
+    width: 400px;
+    height: 155px;
+
+}}
+
+@media (min-width: 800px) { .videos{ 
+    align-self: center;
+    width: 480px;
+    height: 235px;
+
+}}
+
+@media (min-width: 1000px) { .videos{ 
+    align-self: center;
+    width: 560px; 
+    height: 315px;  
+
+}}
+

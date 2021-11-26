@@ -1,0 +1,31 @@
+{
+  "name": "good-duck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinaig/Trabajo_Inicial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rinaig/Trabajo_Inicial/issues"
+  },
+  "homepage": "https://github.com/rinaig/Trabajo_Inicial#readme",
+  "description": ""
+}

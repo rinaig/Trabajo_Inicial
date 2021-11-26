@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good DUCK</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <title>Good Duck Developed</title>
+
+</head>
+<body class="body-back">
+  
+<header>
+    
+    <nav class="navbarHome navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+        
+        <div class="container-fluid justify-content-end">
+            <div class="container-fluid justify-content-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                              <div class="collapse navbar-collapse p-3 justify-content-center" id="navbarNav">
+                                <img src="/img/good duck logo_NEGRO.png" class="img-logo1">       
+             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Nuestros Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobreNosotros">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nuestrasRedes">Nuestras Redes</a>
+                </li>
+
+            </ul>
+           </div>
+             
+
+        </div>
+    </nav>
+</header>
+          </div>
+
+        <!-- DEFINE LA SECCION DE INICIO Y COMIENZA -->
+<section class="backSeccion1 container justify-content-center p-5 " id="inicio">
+        <br></br>
+
+<div class="bodyImagen"></div>
+
+<br></br>
+<div class="row justify-content-center">
+   
+    <div class="col-sm-12 col-md-4 col-lg-3" >
+      <a href="#diseñoGrafico">
+      <div class="card tarjeta border-0 "  >
+            <img class="card-img-top img-80" src="/img/diseñografico_2.png"  alt="Proc. Dic. Graf. Gral" >
+            <div class="card-body text-center">
+        <p class="card-text text-reset">{{precio_grafico}}</p>
+        </div>
+
+
+      </div>
+    </a>
+    </div>
+ 
+
+    
+    <div class="col-sm-12 col-md-4 col-lg-3">
+      <a href="#diseñoWeb">
+        <div class="card tarjeta border-0 ">
+             <img class="card-img-top img-80" src="/img/diseño web_bajada.png"  alt="Img. Dis. Web">
+            <div class="card-body text-center">
+        <p class="card-text text-reset">{{precio_web}}</p>
+        </div>
+        </div>
+      </a>
+    </div>
+
+    
+    <div class="col-sm-12 col-md-4 col-lg-3" >  
+      <a href="#sistIntegrales">
+        <div class="card tarjeta border-0 " >
+            <img class="card-img-top img-80" src="/img/diseñoapp.png"  alt="img. Sist. Int. emp">
+            <div class="card-body text-center">
+        <p class="card-text text-reset">{{precio_app}}</p>
+        </div>
+        </div>
+      </a>
+    </div>
+  
+</div>
+</section>
+
+
+
+
+<!-- {{! TITULO DE SECCION DISEÑO GRAFICO }} -->
+
+<section class="backSeccion2 container justify-content-center p-5  " id="diseñoGrafico">
+  <div class="consulta">
+<br></br>
+ <img class="tamañoImagen card-img-top" src="/img/diseño grafico.png"  alt="Diseño Grafico">
+<br></br>
+
+
+
+
+<!-- {{! CARROUSEL DISEÑO GRAFICO AL HACER CLICK LLEVA A DIFERENTES MODALES PARA VER LAS FOTOS DE CADA UNA }} -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators carouselwith">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner ">
+        <div class="carousel-item active">
+            <img src="/img/DISEÑOS-PUBLICITARIOS/DEPORTE/perfil5.png" class="d-block tamañoImagenCarousel w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block"> 
+         <button type="button" class="d-grid gap-2 col-6 mx-auto btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal1">
+          Deportes
+        </button>
+        <p>Diseño realizado para Pipa Benedetto en Italia</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+         <img src="/img/DISEÑOS-PUBLICITARIOS/ARTISTAS/wisewurdz.png" class="d-block tamañoImagenCarousel w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+       <p><button type="button" class="d-grid gap-2 col-6 mx-auto btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal2">
+          Diseño Bandas
+        </button></p>
+        <p>Diseño realizado para Banda de Puerto Rico</p>
+
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="/img/DISEÑOS-PUBLICITARIOS/COMERCIOS/publi.png" class="d-block tamañoImagenCarousel w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+          <p><button type="button" class="d-grid gap-2 col-6 mx-auto btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal3">
+        Diseño Empresarial
+        </button></p>
+        <p>Diseño Realizado para Pyme</p>
+
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br></br>
+
+
+
+<!-- {{!-- BOTON PARA IR A SECCIONES DISEÑO GRAFICO SOLO VISIBLE EN MOBIL y TABLET DONDE DESAPARECE LOS BOTONES DENTRO DEL CARROUSEL--}} -->
+<div class="dropdown botCaroudesap d-grid gap-2">
+  <button class="	d-block d-md-none btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    Secciones Diseño
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modal1">Deportes</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modal2">Bandas</a></li>
+    <li><a class="dropdown-item"  data-bs-toggle="modal" data-bs-target="#modal3">Empresas</a></li>
+  </ul>
+</div>
+
+</section>
+
+
+<!-- {{!- TITULO DISEÑO WEB PERSONALIZADO }} -->
+  <section class="backSeccion3 container justify-content-center p-5" id="diseñoWeb">
+         <div class="consulta">
+<br></br>
+<br></br>
+ <img class="tamañoImagenGrafico card-img-top img-10" src="/img/diseñoweb.png"  alt="Diseño Web">
+<br></br>
+<iframe class="videos" src="https://www.youtube.com/embed/-ut593BSlCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br></br>
+</div>
+</section>
+
+
+<!-- {{!- TITULO DE SISTEMAS INTEGRALES PARA LA EMPRESA -}} -->
+<section class="backSeccion4 container justify-content-center p-5" id="sistIntegrales">
+  <div class="consulta">
+<br></br>
+<br></br>
+<img class="tamañoImagenSisteInt card-img-top img-80" src="/img/soluciones integrales.png"  alt="Sistemas Integrales">
+<br></br>
+<iframe class="videos" src="https://www.youtube.com/embed/RQXrDvPxV5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- DEFINE LA SECCION SOBRE NOSOTROS Y COMIENZA -->
+
+<section class="backSeccion5 container justify-content-center p-5" id="sobreNosotros">
+<div class="consulta">
+ <img class="tamañoImagenGrafico card-img-top" src="/img/nosotros.png"  alt="Sobre Nosotros">
+      </div>
+<br></br>
+<div id="carouselExampleDark" class="container justify-content-center carouselNosotrosWith carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="/img/coto.png" class="d-block w-100" alt="Imagen Nahu">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nahuel Iglesias</h5>
+          <p>Co-Funder Good Duck. Diplomado en Desarrollo Full Stack en la UTN. Realizar desarrollos en Visual Basic, para empresas hace mas de 15 años.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000" >
+        <img src="/img/facu.PNG" class="d-block w-100" alt="Imagen Facu">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Facundo Di Bella</h5>
+          <p>Co-Funder Good Duck. Diseñador Grafico en General, realiza trabajos de diseño para diversas figuras publicas</p>
+        </div>
+      </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden ">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+
+<!-- DEFINE LA SECCION DE CONTACTO Y COMIENZA -->
+<section class="backSeccion6 container justify-content-center p-5" id="contacto">
+
+    <br></br>
+    <br></br>
+    <div class="consulta">
+ <img class="tamañoImagenDejCons card-img-top img-80" src="/img/dejanostu consulta_1.png"  alt="Dejanos Tu consulta">
+</div>
+    <br></br>
+
+  <form action="/enviar_mail" method="post" id="form">
+    <div class="was-validated">
+    <div class="mb-3">
+        <label for="validationName" class="letraForm form-label">Nombre</label>
+        <input type="text" class="form-control is-valid" id="nombre" placeholder="Escribe tu nombre" required>
+        <div class="invalid-feedback">
+      Aun no ha ingresado el Nombre
+      </div>
+    
+      <div class="mb-3">
+        <label for="validationApellido" class="letraForm form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido" placeholder="Escribe tu apellido" required>
+              <div class="invalid-feedback">
+      Aun no ha ingresado su Apellido
+      </div>
+    
+      <div class="mb-3">
+        <label for="validationDNI" class="letraForm form-label">DNI/CUIT/CUIL</label>
+        <input type="text" class="form-control" id="cuit" placeholder="Formato Cuit/CUIL 20XXXXXXXX2" required>
+      <div class="invalid-feedback">
+      Aun no ha ingresado DNI/CUIT/CUIL
+      </div>
+    
+      <div class="mb-3">
+        <label for="validationCel" class="letraForm form-label">Celular </label>
+        <input type="text" class="form-control" id="celular" placeholder="Formato telefono celular +5491122223333" required>
+                    <div class="invalid-feedback">
+      Aun no ha ingresado su Celular
+      </div>
+    
+      <div class="mb-3">
+        <label for="validationEmail" class="letraForm form-label">Email </label>
+        <input type="email" class="form-control" id="email" placeholder="Escribe Email formato: name@dominio.com.ar" required>
+                    <div class="invalid-feedback">
+      Aun no ha ingresado su email o ingresa en formato correcto.
+      </div>
+    
+      <div class="mb-3">
+        <label for="disabledSelect" class="letraForm form-label">Selecciones Producto a Consultar</label>
+    <select class="form-select" required aria-label="select example" id="cons_producto">
+      <option value="">Elija su Producto</option>
+      <option value="1">Diseño Grafico en General</option>
+      <option value="2">Diseño Web</option>
+      <option value="3">Solucion para tu negocio</option>
+    </select>
+    <div class="invalid-feedback">No olvide seleccionar su producto</div>
+  </div>
+    
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="letraForm form-label">Escriba aqui sus comentarios</label>
+        <textarea class="form-control" id="comentarios" placeholder="Ingrese aqui sus comentarios" required></textarea>
+      <div class="invalid-feedback">
+      No olvide ingresar sus comentarios.
+      </div>
+    <br></br>
+      <button type="submit" class="btn btn-outline-dark">Enviar</button>
+    </div>
+    </form>
+      <br></br>
+
+  
+
+
+
+
+<!-- {{! BOTON PARA ESCRIBIR POR WHATSAPP }} -->
+
+<div class="container justify-content-center P-1" >
+  <h5 class="logoWhatsappLetra">Podes comunicarte con nosotros a traves de whatapps haciendo click en el icono</h5>
+
+      <a href="https://api.whatsapp.com/send?phone=<+541167442965>"target="_blank">    
+    <div class="logoWhatsapp">
+      <img class="card-img-top img-10" src="/img/whatappsinfondo.png"  alt="Sobre Nosotros">
+           </div>
+           
+           </a> 
+</div>
+</section>
+
+
+
+<!-- {{!-- DIMENSIONA EL FOOTER Y NUESTRAS REDES --}} -->
+
+<section class= "backSeccion6 container justify-content-center p-5" id="nuestrasRedes">
+<Footer class= " border-0 p-3 mb-4 rounded">
+   
+    <div class="bloqueFooter">
+        <div>
+            <h4 class="tituloFooter">Encontranos en Nuestras Redes Sociales</h4>
+        <ul class="menuFooter">
+            <li><a href="facebook.html" >
+             <img class="card-img-top img-redes" src="/img/fb_icon-icons.com_65434.png"  alt="Proc. Dic. Graf. Gral" >
+                </a>
+  
+                <a href="Instagram.html" >
+                 <img class="card-img-top img-redes" src="/img/instagram_f_icon-icons.com_65485.png"  alt="Proc. Dic. Graf. Gral" >
+                </a>
+
+               <a href="Tweeter.html" >
+              <img class="card-img-top img-redes" src="/img/Twitter_Rounded_icon-icons.com_61577.png"  alt="Proc. Dic. Graf. Gral" >
+                </a> </li>
+
+        </ul>
+        </div>
+    </div>
+
+<div class="shadow-lg p-3 mb-6 bg-body rounded d-block p-2 bg-dark text-white creditoFinal"> <img src="/img/good duck logo_BLANCO.png" class="img-logofooter"> @Developed by Good Duck designers </div> 
+</section>
+</Footer>
+
+
+<!-- MODALES DENTRO DE CAROUSEL -->
+
+    <!-- Modal CAROUSEL 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" >
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Realizamos tu publicidad para deportes</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+    
+    <!-- CAROUSEL DENTRO DE MODAL1 -->
+            <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                        <img src="/img/DISEÑOS-PUBLICITARIOS/DEPORTE/ELCHE_RAYO.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p> Deportes </p>
+                    <p>Diseño realizado para Pipa Benedetto en Italia</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/DISEÑOS-PUBLICITARIOS/DEPORTE/ELCHE_CELTIADEVIGO.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Deportes</h5>
+                    <p>Diseño realizado para Pipa Benedetto en Italia</p>
+                  </div>
+                </div>
+            
+                <div class="carousel-item">
+                  <img src="/img/DISEÑOS-PUBLICITARIOS/DEPORTE/ELCHE_RCDESPAYOL.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>DEPORTES</h5>
+                    <p>Diseño realizado para Pipa Benedetto en Italia</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
+
+    
+          <div class="modal-footer">
+            <button type="button" class="d-grid gap-2 col-6 mx-auto btn btn-outline-dark" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+        <!-- Modal CAROUSEL 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Realizamos Flyers y publicidad para tu banda</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+    
+    <!-- CAROUSEL DENTRO DE MODAL2 -->
+            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                        <img src="/img/DISEÑOS-PUBLICITARIOS/ARTISTAS/portada_bajada.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p> Bandas </p>
+                    <p>Portada realizada a Smooth Moon</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/DISEÑOS-PUBLICITARIOS/ARTISTAS/frakie.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Bandas</h5>
+                    <p>Portada realizada a Frankie</p>
+                  </div>
+                </div>
+            
+                <div class="carousel-item">
+                  <img src="/img/DISEÑOS-PUBLICITARIOS/ARTISTAS/arte_bajada_preludio.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Bandas</h5>
+                    <p>Portada realizada a Preludio</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
+
+    
+          <div class="modal-footer">
+            <button type="button" class="d-grid gap-2 col-6 mx-auto btn btn-outline-dark" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+            <!-- Modal CAROUSEL 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Realizamos tu publicidad o logo de tu empresa</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+    
+    <!-- CAROUSEL DENTRO DE MODAL3 -->
+            <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                        <img src="/img/DISEÑOS-PUBLICITARIOS/COMERCIOS/grafica3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p> Diseño Empresarial </p>
+                    <p>Logo realizado a Panas</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/DISEÑOS-PUBLICITARIOS/COMERCIOS/graphic1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Diseño Empresarial</h5>
+                    <p>Flyer realizado a Blue River</p>
+                  </div>
+                </div>
+            
+                <div class="carousel-item">
+                  <img src="/img/DISEÑOS-PUBLICITARIOS/COMERCIOS/graphic3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Diseño Empresarial</h5>
+                    <p>Logo Carteleria Realizado a Blue River</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          <div class="modal-footer">
+            <button type="button" class="d-grid gap-2 col-6 mx-auto btn btn-outline-dark" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
